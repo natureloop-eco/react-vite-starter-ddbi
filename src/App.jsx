@@ -18,7 +18,7 @@ setInterval(loadData,5000);
 
 return (
 
-<div className="container">
+<div className="main">
 
 <div className="compound">
 <h2>Office Compound</h2>
@@ -29,20 +29,24 @@ return (
 <div className="workshop">
 
 <h2>Workshop</h2>
+
 <p>Temp: {data.device2?.temp} °C</p>
 <p>Humidity: {data.device2?.hum} %</p>
 
 <div className="officeRoom">
+
 <h3>Office Room</h3>
+
 <p>Temp: {data.device3?.temp} °C</p>
 <p>Humidity: {data.device3?.hum} %</p>
-</div>
 
 </div>
 
 </div>
 
-);
+</div>
+
+)
 
 }
 
