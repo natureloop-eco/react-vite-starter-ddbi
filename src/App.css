@@ -1,30 +1,54 @@
 body{
-background:#f2f2f2;
-font-family:Arial;
+margin:0;
+font-family:Segoe UI;
+background:#f4f6fb;
+}
+
+.dashboard{
+padding:40px;
+}
+
+.title{
+margin-bottom:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+padding:20px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+margin-bottom:25px;
 }
 
 .compound{
-border:4px solid black;
-padding:30px;
-margin:40px;
-background:white;
-height:500px;
+width:80%;
 }
 
 .workshop{
-border:4px solid blue;
-padding:30px;
-margin-top:40px;
-margin-left:60px;
 width:70%;
-background:#f9f9ff;
+margin-left:40px;
 }
 
-.officeRoom{
-border:4px solid green;
-padding:20px;
-margin-top:40px;
-margin-left:60px;
+.office{
 width:60%;
-background:#f6fff6;
+margin-left:40px;
+}
+
+.metrics{
+display:flex;
+gap:30px;
+font-size:18px;
+margin-top:10px;
+}
+
+.timeline{
+margin-top:40px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+input[type=range]{
+width:100%;
 }
